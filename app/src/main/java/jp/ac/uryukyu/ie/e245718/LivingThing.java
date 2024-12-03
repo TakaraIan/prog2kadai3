@@ -3,7 +3,7 @@ package jp.ac.uryukyu.ie.e245718;
 public abstract class LivingThing {
     private String name;
     private int hitPoint;
-    private int attack;
+    protected int attack;
     private boolean dead;
 
     public LivingThing(String name, int hitPoint, int attack) {
